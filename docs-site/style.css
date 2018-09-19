@@ -83,6 +83,7 @@
 }
 
 .react-datepicker-wrapper {
+  width: 100%; /* Custom change */
   display: inline-block;
 }
 
@@ -94,7 +95,7 @@
   border: 1px solid #aeaeae;
   border-radius: 0.3rem;
   display: inline-block;
-  position: relative;
+  position: absolute; /* Custom change */
 }
 
 .react-datepicker--time-only .react-datepicker__triangle {

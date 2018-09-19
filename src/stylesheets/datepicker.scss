@@ -2,6 +2,7 @@
 @import "mixins.scss";
 
 .react-datepicker-wrapper {
+  width: 100%; /* Custom change */
   display: inline-block;
 }
 
@@ -13,7 +14,7 @@
   border: 1px solid $datepicker__border-color;
   border-radius: $datepicker__border-radius;
   display: inline-block;
-  position: relative;
+  position: absolute; /* Custom change */
 }
 
 .react-datepicker--time-only {
@@ -369,6 +370,7 @@
 }
 
 .react-datepicker__input-container {
+  width: 100%; /* Custom change */
   position: relative;
   display: inline-block;
 }
